@@ -34,7 +34,6 @@ parser.add_argument('--checkpoint_steps', dest='checkpoint_steps', type=int, def
 
 args = parser.parse_args()
 
-
 def main(_):
 
     np.random.seed(100)
